@@ -13,4 +13,6 @@ pub(crate) mod headers {
     pub(crate) const X_NN_ACCESS_KEY: &str = "X-NN-Access-Key";
     pub(crate) const X_RANDOM_VALUE: &str = "X-RandomValue";
     pub(crate) const X_REQUEST_DATE: &str = "X-RequestDate";
+    pub(crate) const X_API_KEY: &str = "X-Api-Key";
+    pub(crate) const CORRELATION_ID: &str = "Correlation-Id";
 }
