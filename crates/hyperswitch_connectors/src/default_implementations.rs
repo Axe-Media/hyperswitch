@@ -202,7 +202,6 @@ default_imp_for_complete_authorize!(
     connectors::Globepay,
     connectors::Helcim,
     connectors::Novalnet,
-    connectors::Nexixpay,
     connectors::Stax,
     connectors::Taxjar,
     connectors::Thunes,
