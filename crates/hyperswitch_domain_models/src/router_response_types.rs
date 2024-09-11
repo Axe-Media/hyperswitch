@@ -161,7 +161,7 @@ pub enum RedirectForm {
     },
     Mifinity {
         initialization_token: String,
-    }
+    },
 }
 
 impl From<(url::Url, Method)> for RedirectForm {
@@ -259,4 +259,3 @@ pub struct CompleteAuthorizeRedirectResponse {
     pub params: Option<masking::Secret<String>>,
     pub payload: Option<common_utils::pii::SecretSerdeValue>,
 }
-
