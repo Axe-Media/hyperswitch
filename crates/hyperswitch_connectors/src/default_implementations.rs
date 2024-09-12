@@ -341,7 +341,6 @@ default_imp_for_pre_processing_steps!(
     connectors::Globepay,
     connectors::Helcim,
     connectors::Novalnet,
-    connectors::Nexixpay,
     connectors::Powertranz,
     connectors::Mollie,
     connectors::Stax,
