@@ -539,6 +539,7 @@ cybersource = { payment_method = "card" }
 nmi = { payment_method = "card" }
 payme = { payment_method = "card" }
 deutschebank = { payment_method = "bank_debit" }
+nexixpay = { payment_method = "card" }
 
 [connector_customer]
 connector_list = "gocardless,stax,stripe"
